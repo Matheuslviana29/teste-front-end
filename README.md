@@ -24,7 +24,7 @@ Este projeto foi construído com foco em um stack moderno e performático:
 ### Instalação
 1. Clone o repositório:
    ```bash
-   git clone <url-do-repo>
+   git clone <https://github.com/Matheuslviana29/teste-front-end>
    ```
 
 2. Navegue até o diretório do projeto:
