@@ -1,0 +1,96 @@
+.banner-container {
+
+    height: 350px;
+    background-color: #333;
+    background-image: url('/bannerblackfriday.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, 0.8) 0%,
+            rgba(0, 0, 0, 0) 100%);
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    color: var(--cor-texto-branco);
+}
+
+h1 {
+
+    font-family: var(--font-principal);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+h2 {
+
+    font-family: var(--font-principal);
+    font-size: 30px;
+    font-weight: 400;
+
+    .off-text {
+        font-weight: 700;
+        color: var(--cor-amarelo);
+    }
+}
+
+.banner-button {
+
+    background-color: var(--cor-amarelo);
+    color: var(--cor-roxo);
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .banner-container {
+    height: 280px; 
+    background-position: center;
+  }
+
+  .banner-content {
+    padding: 0 16px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 1.15;
+    margin-bottom: 12px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .banner-button {
+    padding: 10px 16px;
+    font-size: 14px;
+    margin-top: 16px;
+  }
+}

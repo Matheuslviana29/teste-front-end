@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+:root {
+  --font-principal: 'Poppins', sans-serif;
+  --cor-amarelo: #F7CA11;
+  --cor-roxo: #271C47;
+  --cor-preto: #161615;
+  --cor-azul-escuro: #3019B2;
+  --cor-azul: #4344E8;
+  --cor-azul-frete: #3442B5;
+  --cor-azul-hover: #3019B2;
+  --cor-cinza-claro: #808080;
+  --cor-cinza-texto: #3f3f40;
+  --cor-cinza-medio: #4E4E4E;
+  --cor-roxo-newsletter: #191919;
+  --cor-footer-fundo: #F4F4F4;
+
+  --cor-texto-principal: #000000;
+  --cor-texto-secundario: #3F3F40;
+  --cor-texto-titulos-footer: #222222;
+  --cor-texto-branco: #FFFFFF;
+  --cor-borda-card: #E5E5E5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-principal);
+  background-color: var(--cor-texto-branco);
+  color: var(--cor-texto-principal);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+button {
+  font-family: var(--font-principal);
+  cursor: pointer;
+}

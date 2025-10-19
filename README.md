@@ -1,31 +1,71 @@
-# Teste Econverse: Vaga Desenvolvedor Front-End
+# 🛒 Projeto E-commerce Frontend (Econverse)
 
-### Vem ser #Econverse!
+Bem-vindo!
+Este é um projeto de frontend que simula a interface de um e-commerce, desenvolvido como um desafio técnico para a Econverse.
+O objetivo foi construir uma vitrine de produtos limpa, funcional e 100% responsiva, demonstrando habilidades práticas com ferramentas modernas de desenvolvimento web.
 
-Segue abaixo as instruções para a execução do teste.
+## ✨ Recursos Principais
+- **Design Responsivo (Mobile-First)**: Criado com a filosofia mobile-first, o layout se ajusta perfeitamente a qualquer tamanho de tela, garantindo uma ótima experiência tanto em desktops quanto em dispositivos móveis.
+- **Componentização Eficiente**: A aplicação é dividida em componentes reutilizáveis (Header, Footer, Modal de Produto), facilitando a manutenção e a escalabilidade.
+- **Interatividade**: Utiliza o hook useState do React para gerenciar estados dinâmicos, como a abertura do menu mobile e a exibição do modal de produtos.
 
-## Instruções
-- Faça um fork desse projeto para a sua conta pessoal do GitHub.
-- Desenvolva a página conforme as **Especificações Técnicas** 
-- Crie um README com as instruções para compilar, testar e rodar o projeto.
-- O link do repositório deverá ser enviado para o e-mail ana.nascimento@econverse.com.br com o título **Teste Vaga FrontEnd**
+## 🛠️ Tecnologias Utilizadas
+Este projeto foi construído com foco em um stack moderno e performático:
+- ⚛️ **React** — Biblioteca principal para a construção da interface de usuário reativa.
+- 🟦 **TypeScript** — Adiciona tipagem estática ao JavaScript, garantindo um código mais seguro, previsível e fácil de manter.
+- ⚡ **Vite** — Build tool de última geração que oferece um ambiente de desenvolvimento extremamente rápido com Hot Module Replacement (HMR).
+- 🎨 **CSS / SASS** — Utilizado para a estilização dos componentes e garantia da responsividade.
 
-## Especificações Técnicas
-- Desenvolver a pagina em React e TypeScript conforme o [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1). Para conseguir pegar os elementos do Figma, basta copiar o layout para sua conta que terá acesso de edição.
-- Montar a [vitrine](https://app.econverse.com.br/teste-front-end/junior/tecnologia/layout/vitrine-produtos.png) de produtos consumindo as informações dos produtos em json atraves desse [Link](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json).
-- Desenvolver a interação ao clicar em um produto conforme layout. A interação consiste em abrir um modal com as principais informações do produto presente no arquivo [JSON](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json) conforme o produto que clicar.
-- Utilizar Pré-processador Sass, Less ou Stylus.
-- Respeitar o Layout pixel a pixel, tamanho das fontes, cores e botões.
-- Não Utilizar bibliotecas UI como Bootstrap, Foundation, ou afins.
+## 🚀 Rodando o Projeto Localmente
+### Pré-requisitos
+- Node.js (versão 16 ou superior)
+- npm ou yarn
 
-## Pontos Extras
-- Utilizar Boas práticas de SEO
-- Uso de HTML semântico
+### Instalação
+1. Clone o repositório:
+   ```bash
+   git clone <url-do-repo>
+   ```
 
-## O que avaliaremos em seu teste
-- Organização do projeto
-- Lógica do código
-- Componentização
-- Alcance dos objetivos propostos
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd testeeconverse
+   ```
 
-**Boa sorte! ;)**
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+### Execução
+- Para iniciar o servidor de desenvolvimento (com hot reload):
+  ```bash
+  npm run dev
+  ```
+  Abra http://localhost:5173 (ou a porta indicada no terminal) no seu navegador.
+
+- Para compilar o projeto para produção:
+  ```bash
+  npm run build
+  ```
+  Os arquivos otimizados serão gerados no diretório `dist/`.
+
+## 📂 Estrutura do Projeto
+```
+TesteEconverse/
+├── public/           # Arquivos estáticos (imagens, favicons)
+├── src/
+│   ├── assets/       # Ícones e imagens usados pelos componentes
+│   ├── components/   # Componentes React reutilizáveis (Header, Footer, etc.)
+│   ├── App.tsx       # Componente principal da aplicação
+│   └── main.tsx      # Ponto de entrada do React
+├── index.html
+└── package.json
+```
+
+## 📬 Entre em Contato
+Gostou do projeto ou quer discutir minhas habilidades e como posso agregar ao seu time?
+Vamos conversar!
+- 📧 E-mail: vianadev29@gmail.com
+- 📱 Telefone: +55 11 98486-0876
+- 💼 LinkedIn: https://www.linkedin.com/in/matheusviana-dev/

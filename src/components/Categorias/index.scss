@@ -1,0 +1,131 @@
+
+.categorias-container {
+  padding: 40px 0;
+  background-color: #FAFAFA; 
+
+  .container {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+.categoria-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 140px; 
+  cursor: pointer;
+
+  .categoria-icone-wrapper {
+    width: 108px; 
+    height: 108px;
+    background-color: var(--cor-texto-branco);
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+
+    img {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
+  p {
+    font-family: var(--font-principal);
+    font-size: 14px; 
+    font-weight: 600;
+    color: var(--cor-cinza-medio);
+    text-align: center;
+    word-break: keep-all;
+    white-space: nowrap;
+  }
+
+  &:hover {
+    p {
+      color: var(--cor-azul-hover);
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .categorias-container {
+    padding: 24px 0;
+    
+    .container {
+      padding: 0 16px;
+      overflow: visible; 
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+  }
+
+  .categoria-item {
+    width: calc(33.333% - 12px); 
+    max-width: 140px;
+    gap: 12px;
+
+    .categoria-icone-wrapper {
+      width: 80px;
+      height: 80px;
+      
+      img {
+        width: 36px;
+        height: 36px;
+      }
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 1.2;
+      white-space: normal;
+      word-break: break-word;
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .categorias-container {
+    padding: 20px 0;
+    
+    .container {
+      padding: 0 12px;
+      gap: 12px;
+    }
+  }
+
+  .categoria-item {
+    width: 85px;
+    gap: 10px;
+
+    .categoria-icone-wrapper {
+      width: 70px;
+      height: 70px;
+      
+      img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+
+    p {
+      font-size: 11px;
+      max-width: 85px;
+    }
+  }
+}
