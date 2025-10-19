@@ -29,7 +29,7 @@ Este projeto foi construído com foco em um stack moderno e performático:
 
 2. Navegue até o diretório do projeto:
    ```bash
-   cd testeeconverse
+   cd teste-front-end
    ```
 
 3. Instale as dependências:
@@ -52,7 +52,7 @@ Este projeto foi construído com foco em um stack moderno e performático:
 
 ## 📂 Estrutura do Projeto
 ```
-TesteEconverse/
+teste-front-end/
 ├── public/           # Arquivos estáticos (imagens, favicons)
 ├── src/
 │   ├── assets/       # Ícones e imagens usados pelos componentes
